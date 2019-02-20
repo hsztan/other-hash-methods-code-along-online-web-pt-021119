@@ -9,7 +9,7 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  groceries.values.to_s
+  groceries.values.flatten.to_s
 end
 
 puts get_the_values(groceries)
